@@ -1,0 +1,118 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "JotunnLib/2.24.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Core",
+          "System.Data",
+          "System.Data.DataSetExtensions",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net462/Jotunn.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net462/Jotunn.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "build/JotunnLib.props": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "JotunnLib/2.24.3": {
+      "sha512": "FEIEq+vOAt/92A7zADah2tR7SV1ovrJ7nUJ9Fi8ugDDQ9LcaJWEwacnKkJidRY/jH8u6NT6Q2MyWC0vDeAAYSg==",
+      "type": "package",
+      "path": "jotunnlib/2.24.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/JotunnBuildTask.dll",
+        "build/JotunnLib.props",
+        "build/JotunnLibRefsCorlib.props",
+        "build/Mono.Cecil.dll",
+        "build/Paths.props",
+        "images/JVL_Logo_128x128.png",
+        "jotunnlib.2.24.3.nupkg.sha512",
+        "jotunnlib.nuspec",
+        "lib/net462/Jotunn.dll",
+        "lib/net462/Jotunn.pdb",
+        "lib/net462/Jotunn.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "JotunnLib >= 2.24.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sepha\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sepha\\source\\repos\\MistFinders\\MistFinders\\MistFinders.csproj",
+      "projectName": "MistFinders",
+      "projectPath": "C:\\Users\\sepha\\source\\repos\\MistFinders\\MistFinders\\MistFinders.csproj",
+      "packagesPath": "C:\\Users\\sepha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sepha\\source\\repos\\MistFinders\\MistFinders\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sepha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "JotunnLib": {
+            "target": "Package",
+            "version": "[2.24.3, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

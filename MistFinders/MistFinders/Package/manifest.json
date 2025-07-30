@@ -1,0 +1,10 @@
+﻿{
+  "name": "MistFinders",
+  "description": "Cook up items that you can eat to sniff out Infested Mines and Jotunn Skulls",
+  "version_number": "1.0.2",
+  "website_url": "",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2202",
+    "ValheimModding-Jotunn-2.24.3"
+  ]
+}
